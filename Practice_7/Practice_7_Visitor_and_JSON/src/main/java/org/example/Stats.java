@@ -27,7 +27,7 @@ public class Stats implements DataElement {
     public static Stats generate() {
         return new Stats(Dice.rollStat(),Dice.rollStat(),Dice.rollStat(),Dice.rollStat(),Dice.rollStat(),Dice.rollStat());
     }
-    public void printStats(){
+    public void printStats() {
         System.out.println("~~~~~Attributes Sheet~~~~\nStrength:"+this.attrib.get("Strength")+
                 "\nDexterity:"+this.attrib.get("Dexterity")+"\nConstitution:"+this.attrib.get("Constitution")+
                 "\nIntelligence:"+this.attrib.get("Intelligence")+"\nWisdom:"+this.attrib.get("Wisdom")+

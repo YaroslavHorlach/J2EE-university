@@ -7,12 +7,6 @@ public class Character implements DataElement {
     private String name;
     private CharacterRace race;
     private Stats attributes;
-    private String dndclass;
-    private int health;
-
-    public int getHealth() {
-        return health;
-    }
 
     public CharacterRace getRace() {
         return race;
@@ -35,14 +29,6 @@ public class Character implements DataElement {
         this.name = name;
     }
 
-    public String getDndclass() {
-        return dndclass;
-    }
-
-    public void setDndclass(String dndclass) {
-        this.dndclass = dndclass;
-    }
-
     public Stats getAtributes() {
         return attributes;
     }
@@ -55,8 +41,6 @@ public class Character implements DataElement {
             int val = this.attributes.getAttrib().get(title)+this.race.getRaceBonuses().getAttrib().get(title);
             this.attributes.getAttrib().put(title, val);
         }
-
-        this.health += Math.floor(this.attributes.getAttrib().get("Constitution")/2)-5;
     }
 
     public void setAtributes(Stats attributes) {

@@ -1,1 +1,2 @@
-[{"HP":org.example.Stats@6f496d9f,"Atributes":{"Charisma":14,"Dexterity":15,"Wisdom":15,"Intelligence":10,"Strength":15,"Constitution":15},"Name":"Dwarf \"Bruenor\"","Race":"Hill Dwarf"},{"HP":org.example.Stats@b4c966a,"Atributes":{"Charisma":13,"Dexterity":15,"Wisdom":17,"Intelligence":18,"Strength":17,"Constitution":12},"Name":"Elf \"Legolas\"","Race":"Human"}]
+[{"Atributes":{"Charisma":14,"Dexterity":13,"Wisdom":16,"Intelligence":14,"Strength":14,"Constitution":20},"Name":"Dwarf \"Bruenor\"","Race":"Hill Dwarf"},
+ {"Atributes":{"Charisma":13,"Dexterity":14,"Wisdom":19,"Intelligence":16,"Strength":14,"Constitution":15},"Name":"Elf \"Legolas\"","Race":"Human"}]
